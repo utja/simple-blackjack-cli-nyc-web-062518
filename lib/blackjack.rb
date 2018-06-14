@@ -74,6 +74,10 @@ def runner
       display_card_total(c)
       d = hit?(c)
       d
+    elsif c > 21
+      end_game(c)
+    else
+      nil
     end
   end  
 end
