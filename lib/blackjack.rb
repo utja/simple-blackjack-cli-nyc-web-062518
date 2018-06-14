@@ -66,7 +66,7 @@ def runner
   b
   if b > 21
     end_game(b)
-  else if b <= 21
+  elsif b <= 21
     display_card_total(b)
     c = hit?(b)
     c
