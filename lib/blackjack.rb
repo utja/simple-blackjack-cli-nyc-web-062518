@@ -64,11 +64,11 @@ def runner
   a = initial_round
   b = hit?(a)
   b
-  if b < 21
+  if b <= 21
     display_card_total(b)
     c = hit?(b)
     c
-    if c < 21
+    if c <= 21
       display_card_total(c)
       d = hit?(c)
       d
