@@ -72,5 +72,6 @@ def runner
       display_card_total(c)
       d = hit?(c)
       d
+    end
   end  
 end
