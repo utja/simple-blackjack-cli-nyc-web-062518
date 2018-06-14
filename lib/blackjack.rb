@@ -69,5 +69,8 @@ def runner
     c = hit?(b)
     c
     if c < 21
+      display_card_total(c)
+      d = hit?(c)
+      d
   end  
 end
